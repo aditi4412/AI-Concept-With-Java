@@ -121,7 +121,7 @@ public class AStarEucledien {
         }
 
         System.out.println("No solution found using A* (Euclidean).");
-        System.out.println("Total explored nodes: " + exploredNodes);
+        System.out.println("Total explored nodes are: " + exploredNodes);
         System.out.println("Time spent exploring nodes: " + (explorationTime / 1_000_000.0) + " ms");
     }
 
